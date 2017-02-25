@@ -8,7 +8,7 @@
 ## operations.
 ##
 ## Example usage:
-##  > a <- rbind(c(1, -1/4), c(-1/4, 1))
+##  > a <- matrix(c(4,3,3,2), 2, 2)
 ##  > b <- makeCacheMatrix(a)
 ##  > b$get()
 ##  > cacheSolve(b)
